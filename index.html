@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/movil.css">
+    <script src='https://kit.fontawesome.com/66c3e37d5e.js' crossorigin='anonymous'></script>
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <title>Menu Responsive</title>
+</head>
+<body>
+    <header class="ancho">
+        <div class="movil">
+            <figure>
+                <img src="imagenes/logo_arriba.png" alt="texto de la imagen">
+            </figure>
+            <div ><a href="#" id="icono"><i class='fa-solid fa-bars'></i></a></div>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Nuestros productos</a></li>
+                <li><a href="#">Contactanos</a></li>
+            </ul>
+        </nav>
+        
+    </header>    
+    <div class="slide">
+        <div class="par ancho"><p>Cultivamos verduras orgánicas y las traemos a tu mesa</p></div>
+    </div>
+    <br><br>
+    <section class="servicio">
+        <h2>Nuestros Servicios</h2>
+        <h3>Lo que ofrecemos</h3>
+        <br>
+        <div class="servicios">
+            <article>
+                <figure>
+                    <img src="imagenes/icono1.png" alt="texto de la imagen">
+                </figure>
+                <h5 class="titulo">Ganado Vacuno</h5>
+                <p class="texto">Carne de res producida sin ingenieria genéticam, uso de radiacion ionizante o lodos de depuradora</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="imagenes/icono2.png" alt="texto de la imagen">
+                </figure>
+                <h5 class="titulo">Productos Lácteos</h5>
+                <p class="texto">Los productos lácteos como la leche, el queso y el yogurt continen los nutrientes que su cuerpo necesita.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="imagenes/icono3.png" alt="texto de la imagen">
+                </figure>
+                <h5 class="titulo">Frutas de la Huerta</h5>
+                <p class="texto">Cubre todo lo que necesita saber para cultivar y comerzializar con éxito sus propias frutas orgánicas de huerta.</p>
+            </article>
+        </div>
+    </section>
+    <br><br><br>
+    <footer>
+        <figure>
+            <img src="imagenes/logo_abajo.png" alt="texto de la imagen">
+        </figure>
+    </footer>
+    <script>
+        $("#icono").click(function () {
+            $("#nav").slideToggle();
+          });
+    </script>
+</body>
+</html>

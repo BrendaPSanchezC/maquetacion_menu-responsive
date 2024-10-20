@@ -1,0 +1,63 @@
+@media screen and (max-width:480px){
+    header{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .movil{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    nav{
+        margin-top: 10px;
+        width: 100%;
+        display: none;
+    }
+
+    nav ul{
+        display: block;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #f3f3f3;
+        padding: 10px;
+    }
+    nav ul li{
+        width: 100%;
+        border-bottom: 1px black dotted;
+        padding: 5px;
+    }
+
+    #icono{
+        display: flex;
+    }
+    .par{
+        padding-top: 0;
+        text-align: center;
+    }
+    .slide{
+        background-position: center;/* para centrar l aimagen*/
+        overflow: hidden;
+        height: 350px;
+        padding-top: 0;
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .slide p{
+        width: 350px;
+        text-align: start;
+        height: 100px;
+        font-size: 2rem;
+    }
+    .servicios{
+        flex-direction: column;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    footer figure{
+        width: 50%;
+    }
+}
